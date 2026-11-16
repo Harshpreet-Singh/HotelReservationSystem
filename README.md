@@ -93,8 +93,12 @@ The project is intentionally designed to **touch every unit of the OOP syllabus*
 
 ## Project Structure
 
+```
 HotelReservationSystem/
+│
 ├── README.md
+│
+├── .gitignore
 │
 ├── src/
 │   ├── db/
@@ -117,7 +121,7 @@ HotelReservationSystem/
 │   └── Main.java
 └── sql/
     └── hotel_db.sql
-
+```
 
 ---
 
