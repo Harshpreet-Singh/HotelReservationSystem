@@ -1,0 +1,142 @@
+# ============================================================
+#  .gitignore — Hotel Room Reservation System
+#  CSE2003 | OOP using Java | Group 4
+# ============================================================
+
+# ---------- Java Compiled Output ----------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Build output folders
+out/
+bin/
+build/
+target/
+dist/
+classes/
+*.apk
+*.dex
+
+# ---------- IDE / Editor Configs ----------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+*.launch
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# JDeveloper / JBuilder
+*.jpr
+*.jpx
+*.jws
+*.jcx
+*.jspf
+
+# ---------- Build Tools ----------
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# ---------- Database / Secrets ----------
+# Never commit local DB dumps or credentials
+*.sql.bak
+*.sql.backup
+local_db.sql
+db_credentials.txt
+.env
+.env.*
+!.env.example
+
+# ---------- Logs & Temp Files ----------
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+
+# ---------- OS Generated Files ----------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon\r
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ---------- Test Reports ----------
+test-output/
+surefire-reports/
+junit*.xml
+coverage/
+.nyc_output/
+
+# ---------- Docs / Generated Reports ----------
+# Keep source docs, ignore generated ones
+*.pdf
+!README.pdf
+report_draft.docx
+report_final.docx
+
+# ---------- Misc ----------
+*.bak
+*.backup
+*.cache
+*.pid
+*.seed
+*.pid.lock
